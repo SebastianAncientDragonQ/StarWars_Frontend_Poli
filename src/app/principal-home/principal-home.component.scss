@@ -1,0 +1,34 @@
+.backgound-styles {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    background-color: #151515;
+}
+
+
+@media screen and (min-width: 768px){
+
+    .starfield {
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        top: 0;
+        background-repeat: repeat-y;
+    }
+
+    .starfield.star-left {
+        left: 0;
+        background-position: left center;
+        background-size: 100% auto;
+        background-image: url("/assets/img/home/bg_starsL.jpg");
+    }
+
+    .starfield.star-right {
+        right: 0;
+        background-position: right center;
+        background-size: 100% auto;
+        background-image: url("/assets/img/home/bg_starsR.jpg");
+    } 
+}

@@ -1,0 +1,16 @@
+
+mat-toolbar{
+    background-color: #222;
+    border-bottom: 1px solid #333;
+}
+
+#nav-sw-logo-bar{
+    cursor: pointer;
+    background-image: url("/assets/img/home/logoStarWars.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+    height: 70%;
+    width: 50%;
+}
