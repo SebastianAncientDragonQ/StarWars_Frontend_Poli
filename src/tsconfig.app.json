@@ -1,0 +1,13 @@
+{
+  " extiende " : " ../tsconfig.json " ,
+  " compilerOptions " : {
+    " outDir " : " ../out-tsc/app " ,
+    " baseUrl " : " ./ " ,
+    " módulo " : " es2015 " ,
+    " tipos " : []
+  },
+  " excluir " : [
+    " test.ts " ,
+    " ** / *. spec.ts "
+  ]
+}
